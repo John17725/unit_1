@@ -209,12 +209,17 @@ button:hover::before, button:focus::before {
 	color: #000;
 }
 
+
 @media(min-width: 1280px){
 	.slideshow {
 		height: 701px;
 	}
 	.header-content {
 		max-width: 1000px;
+	}
+	.text{
+		right: 220px;
+		left: 50px;
 	}
 }
 
