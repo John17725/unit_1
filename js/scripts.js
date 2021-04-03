@@ -2,7 +2,7 @@ console.log('HOLA MUNDO')
 
 addEventListener('DOMContentLoaded',()=>{
 
-	const arr_img = ['../img/img_01.jpg','../img/img_02.jpg','../img/img_03.jpg','../img/img_04.jpg','../img/img_05.jpg',];
+	const arr_img = ['img/img_01.jpg','img/img_02.jpg','img/img_03.jpg','img/img_04.jpg','img/img_05.jpg',];
 	let i = 1
 	const img1 = document.querySelector('#img1')
 	const img2 = document.querySelector('#img2')
