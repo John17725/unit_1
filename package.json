@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "server/main.js"
+    "start": "nodemon server/main.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/John17725/unit_1/issues"
   },
-  "homepage": "https://github.com/John17725/unit_1#readme"
+  "homepage": "https://github.com/John17725/unit_1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }

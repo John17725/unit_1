@@ -11,11 +11,13 @@
 }
 
 body {
-	background: #eee;
+	background: rgba(238,238,238,100);
 	font-family: 'Ubuntu', sans-serif;
 }
 
 header {
+	padding-top: 10px;
+	padding-bottom: 100px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -23,7 +25,7 @@ header {
 	height: 80px;
 	box-shadow: 0 4px 25px -22px blue;
 	z-index: 2;
-	background: #FFFFFF;
+	background: #FFF;
 }
 
 .header-content {
@@ -101,11 +103,11 @@ header {
 }
 
 main {
-	margin-top: 80px;
+	margin-top: 120px;
 }
 
-.btn-empezar {
-	padding-top: 900px;
+.contenido-hero{
+	padding-top: 650px;
 	height: 100%;
 }
 
@@ -160,33 +162,60 @@ button:hover::before, button:focus::before {
   opacity: 1;
 }
 
-button::after {
-  content: '';
-  width: 30px; height: 30px;
-  border-radius: 100%;
-  border: 6px solid #00FFCB;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: ring 1.5s infinite;
+.hero{
+	background-image: url(../img/img_01.jpg);
+	background-size: cover;
+	height: 819px;
 }
 
-button:hover::after, button:focus::after {
-  animation: none;
-  display: none;
+@media(min-width: 768px){
+	.hero{
+		height: 905px;
+	}
+	.contenido-hero{
+		padding-top: 750px;
+	}
+	.header-content {
+		max-width: 690px;
+	}
 }
 
-@keyframes ring {
-  0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1;
-  }
-  100% {
-    width: 300px;
-    height: 300px;
-    opacity: 0;
-  }
+
+@media(min-width: 1280px){
+	.hero{
+		height: 830px;
+	}
+	.contenido-hero{
+		padding-top: 700px;
+	}
+	.header-content {
+		max-width: 1000px;
+	}
+
+}
+
+@media(min-width: 1920px){
+	.hero{
+		height: 819px;
+	}
+	.contenido-hero{
+		padding-top: 650px;
+	}
+	.header-content {
+		max-width: 1500px;
+	}
+
+}
+
+@media(min-width: 2560px){
+	.hero{
+		height: 1480px;
+	}
+	.contenido-hero{
+		padding-top: 1200px;
+	}
+	.header-content {
+		max-width: 1900px;
+	}
+
 }
