@@ -201,8 +201,38 @@ button:hover::before, button:focus::before {
 	font-weight: 200;
 }
 
+.fa-server {
+	color: #000;
+}
+
+.fa-cogs{
+	color: #000;
+}
+
+@media(min-width: 1280px){
+	.slideshow {
+		height: 701px;
+	}
+	.header-content {
+		max-width: 1000px;
+	}
+}
+
+@media(min-width: 1920px){
+	.slideshow {
+		height: 689px;
+	}
+	.header-content {
+		max-width: 1500px;
+	}
+}
+
 @media(min-width: 2560px){
 	.slideshow {
 		height: 1350px;
 	}
+	.header-content {
+		max-width: 1800px;
+	}
 }
+
