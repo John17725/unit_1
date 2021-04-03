@@ -1,0 +1,20 @@
+{
+  "name": "unit_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John17725/unit_1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John17725/unit_1/issues"
+  },
+  "homepage": "https://github.com/John17725/unit_1#readme"
+}
