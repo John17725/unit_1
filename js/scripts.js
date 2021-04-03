@@ -1,4 +1,4 @@
-console.log('HOLA MUNDO')
+
 
 addEventListener('DOMContentLoaded',()=>{
 
