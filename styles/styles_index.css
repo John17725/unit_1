@@ -218,6 +218,21 @@ button:hover::before, button:focus::before {
 	}
 }
 
+@media(min-width: 1366px){
+	.slideshow {
+		height: 344px;
+	}
+	.text {
+		top: 100px;
+		left: 90px;
+		right: 650px;
+	}
+	.header-content {
+		max-width: 1200px;
+	}
+}
+
+
 @media(min-width: 1600px){
 	.slideshow {
 		height: 509px;
