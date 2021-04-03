@@ -1,0 +1,54 @@
+:root{
+	--primario: #F55C5C;
+	--secundario: #ffef2f;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration:none;
+}
+
+body {
+	background: #eee;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.titulo {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-size: 1.8rem;
+}
+
+main {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+.container-box{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.box {
+	width: 250px;
+	height: 250px;
+	margin: 10px;
+	padding: 20px;
+	border: 2px solid #eee;  
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.box img {
+	width: 60%;
+}
+
+.box h2 {
+	font-size: 1.5rem;
+}

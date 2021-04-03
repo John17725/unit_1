@@ -181,11 +181,11 @@ button:hover::before, button:focus::before {
 	z-index: 998;
 	padding: 20px;
 	position: absolute;
-	background-color: rgba(255,255,255,.60);
+	background-color: rgba(255,255,255,.45);
 	top: 230px;
 	left: 150px;
 	right: 600px;
-	color: #323232;
+	color: #000;
 	border-radius: 20px;
 }
 
@@ -258,6 +258,11 @@ button:hover::before, button:focus::before {
 	}
 	.header-content {
 		max-width: 1500px;
+	}
+	.text {
+		font-size: 1.5rem;
+		top:250px;
+		right: 350px;
 	}
 }
 
