@@ -23,9 +23,11 @@ body {
 }
 
 main {
+	
 	width: 100%;
 	max-width: 1000px;
 	margin: auto;
+	margin-bottom: 50px;
 }
 .contenedor-box{
 	width: 100%;
@@ -99,8 +101,80 @@ main {
 	opacity: 1;
 }
 
-
 footer a{
+	color: #fff;
+}
+
+footer {
+	background: #323330;
+	height: auto;
+	width: 100vw;
+	padding-top: 20px;
 	color: #000;
+	box-shadow: 0 4px 25px 22px rgba(0,0,0,.55);
+}
+
+
+.footer-content{
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.footer-content h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-content p{
+	max-width: 900px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+
+.socials {
+	font-size: 1.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+
+.fa-html5{
+	color: #F16529;
+}
+
+
+.fa-css3-alt{
+	color: #2965f1;
+}
+
+.fa-js-square{
+	color: #F0DB4F;
+}
+
+.fa-node {
+	color: green;
+}
+
+.socials li{
+	list-style: none;
+	margin: 0 10px;
+}
+
+.git{
+	font-size: 1.9rem;
+}
+
+.git i {
+	color: #000;
+	font-size: 2rem;
 }
 
