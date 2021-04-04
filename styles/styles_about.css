@@ -234,7 +234,7 @@ footer {
 			font-size: 1rem;
 		}
 		.contenedor-box{
-			margin-top: 10px;
+			margin-top: 20px;
 		}
 
 		.footer-content h3{
@@ -244,15 +244,15 @@ footer {
 		}
 
 		.footer-content p{
-			max-width: 600px;
-			margin: 10px auto;
-			line-height: 18px;
+			max-width: 650px;
+			margin: 15px auto;
+			line-height: 22px;
 			font-size: 13px;
 		}
 
 		.socials {
 			font-size: 14px;
-			margin: 1rem 0 1.4em 0;
+			margin: 2rem 0 2.5rem 0;
 		}
 
 		.git{
@@ -291,8 +291,8 @@ footer {
 	}
 
 	.socials {
-		font-size: 1.3rem;
-		margin: 1rem 0 3rem 0;
+		font-size: 1.4rem;
+		margin: 2rem 0 3.4rem 0;
 	}
 
 

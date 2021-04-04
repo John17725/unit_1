@@ -225,7 +225,7 @@ button:hover::before, button:focus::before {
 
 @media(min-width: 1366px){
 	.slideshow {
-		height: 344px;
+		height: 402px;
 	}
 	.text {
 		top: 100px;
@@ -240,7 +240,7 @@ button:hover::before, button:focus::before {
 
 @media(min-width: 1600px){
 	.slideshow {
-		height: 509px;
+		height: 540px;
 	}
 	.text {
 		top: 140px;
@@ -254,7 +254,7 @@ button:hover::before, button:focus::before {
 
 @media(min-width: 1920px){
 	.slideshow {
-		height: 689px;
+		height: 720px;
 	}
 	.header-content {
 		max-width: 1500px;
