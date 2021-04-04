@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration:none;
+}
+
+body {
+	background: #eee;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1	{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 3rem;
+}
+
+a{
+	color: #fff;
+}
+
+.primera-seccion {
+   	background: linear-gradient(rgba(68, 13, 13, 0.35),
+   		rgba(38,2,2,0.446)), 
+   		url(../img/img_06.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+.barra-navegacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.logo {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav > a:hover {
+    color: #fb2056;
+}
+
+.primera-seccion-contenido {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.primera-seccion-contenido > p {
+    text-transform: capitalize;
+    margin-bottom: -2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.primera-seccion-contenido > h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+/*.content-text-izq {
+	border:solid red;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1200px;
+}
+
+
+.content-der{
+	border:solid red;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1200px;
+}
+*/
+
+
+.content-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 3px;
+}
+
+.content-text-izq {
+	border-radius: 20px;
+	padding: 15px;
+	width: 500px;
+	float: left;
+}
+
+.content-text-izq p {
+	text-align: justify;
+}
+
+
+.content-text-der{
+	width: 500px;
+	float: right;
+}
+
+.box img {
+	width: 60%;
+	transition: all 400ms;
+}
+
+.content-text-der img {
+	margin: 5px;
+	width: 100%;
+	transition: all 400ms;
+}
+
+.content-text-der:hover img {
+	border-radius: 10px;
+	transform: translateX(-290px);
+}
+
+
+.content-text-der p{
+	text-align: justify;
+}

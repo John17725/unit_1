@@ -1,8 +1,3 @@
-:root{
-	--primario: #F55C5C;
-	--secundario: #ffef2f;
-}
-
 *{
 	margin: 0;
 	padding: 0;
@@ -132,6 +127,7 @@ footer {
 	line-height: 3rem;
 }
 
+
 .footer-content p{
 	max-width: 600px;
 	margin: 10px auto;
@@ -184,7 +180,7 @@ footer {
 
 @media(min-width: 1366px){
 	footer {
-		width: 1350px;
+		width: 1365px;
 	}
 	.titulo {
 		margin-top: 1px;
