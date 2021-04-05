@@ -12,12 +12,12 @@ window.addEventListener("resize", function(){
 
 
 btnDer.addEventListener('click', function(){
-	if (pos==7) {
+	if (pos==5) {
 		alert("Has llegado al final")
 		slider.style.transform = "translate("+(-width*0)+"px)";
 		slider.style.transition = "transform .8s";
 		pos = 0
-	}if (pos<7) {
+	}if (pos<5) {
 		console.log(pos)
 		slidesDer()
 
