@@ -1,31 +1,34 @@
 let slider = document.querySelector(".slider-contenedor")
 let sliderIndividual = document.querySelectorAll(".contenido-slider")
-let contador = 1;
+let pos = 1;
 let width = sliderIndividual[0].clientWidth;
-let intervalo = 1;
 let btnDer = document.querySelector("#btn-der")
+
 
 
 window.addEventListener("resize", function(){
     width = sliderIndividual[0].clientWidth;
 })
 
-// setInterval(function(){
-//     slides();
-// },intervalo);
+
+btnDer.addEventListener('click', function(){
+	if (pos==7) {
+		alert("Has llegado al final")
+		slider.style.transform = "translate("+(-width*0)+"px)";
+		slider.style.transition = "transform .8s";
+		pos = 0
+	}if (pos<7) {
+		console.log(pos)
+		slidesDer()
+
+	}
+})
 
 
 
-function slides(){
-    slider.style.transform = "translate("+(-width*contador)+"px)";
+function slidesDer(){
+    slider.style.transform = "translate("+(-width*pos)+"px)";
     slider.style.transition = "transform .8s";
-    contador++;
-
-    if(contador == sliderIndividual.length){
-        setTimeout(function(){
-            slider.style.transform = "translate(0px)";
-            slider.style.transition = "transform 0s";
-            contador=1;
-        },1500)
-    }
+    pos++;
 }
+

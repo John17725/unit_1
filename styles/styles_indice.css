@@ -25,7 +25,7 @@ a:hover{
 	color: #fff;
 }
 
-.contenedor{
+/*.contenedor{
     width: 100%;
     overflow: hidden;
 }
@@ -76,7 +76,7 @@ a:hover{
 	left: 10px;
 
 }
-
+*/
 .primera-seccion {
 	padding-top: 6rem;
     height: 100vh;
@@ -116,6 +116,7 @@ a:hover{
 
 .barra-navegacion {
 	position: fixed;
+	z-index: 998;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -157,7 +158,7 @@ a:hover{
     color: #383838;
 }
 
-.primera-seccion-contenido > h1 {
+.primera-seccion-contenido  h1 {
     text-transform: uppercase;
     font-size: 4rem;
     font-weight: 700;

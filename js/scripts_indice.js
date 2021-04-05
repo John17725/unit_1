@@ -2,7 +2,7 @@
 addEventListener('DOMContentLoaded',()=>{
 
 	const arr_img = ['img/img_12.jpg','img/img_13.jpg','img/img_14.jpg','img/img_15.jpg','img/img_16.jpg','img/img_17.jpg'];
-	const arr_img2 = ['img/img_01.jpg','img/img_02.jpg','img/img_14.jpg','img/img_15.jpg','img/img_16.jpg','img/img_17.jpg'];
+	const arr_img2 = ['img/img_desafio_1.jpg','img/img_desafio_2.jpg'];
 	let i = 1
 	let j = 1
 	const img1 = document.querySelector('#img1')
@@ -28,7 +28,7 @@ addEventListener('DOMContentLoaded',()=>{
 		},0)
 	}
 	const slideshow2 = () => {
-		img4.src = arr_img[i]
+		img4.src = arr_img2[j]
 		img4.classList.add('active')
 		j++
 		if (j == arr_img2.length) {
