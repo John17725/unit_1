@@ -58,7 +58,7 @@ main {
 	margin-top: 10px;
 	transition: all 500ms;
 }
-
+/*desaparecer*/
 .box .contenedor-p{
 	width: 100%;
 	height: 150px;
@@ -90,7 +90,7 @@ main {
 .box:hover h2{
 	transform: translateY(-90px);
 }
-
+/*APARECER TEXT*/
 .box:hover .contenedor-p p{
 	transform: translateY(0px);
 	opacity: 1;

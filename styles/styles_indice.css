@@ -6,32 +6,31 @@
 }
 
 body {
-	background: #eee;
 	font-family: 'Ubuntu', sans-serif;
+	background: linear-gradient(rgba(0, 193, 255, 0.45),
+   		rgba(0,43,255,0.46)); 
+    background-attachment: fixed;
 }
 
 h1	{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 3rem;
+	color: #383838;
 }
 
 a{
-	color: #fff;
+	color: #000;
 }
 a:hover{
-	color: #dab600;
+	color: #fff;
 }
 
 .barra-navegacion i {
-	color: #fff;
+	color: #000;
 	font-size: 1rem;
 }
 
 .primera-seccion {
-   	background: linear-gradient(rgba(68, 13, 13, 0.35),
-   		rgba(38,2,2,0.446)), 
-   		url(../img/img_06.jpg) no-repeat center/cover;
-    background-attachment: fixed;
     height: 100vh;
     color: white;
 }
@@ -53,7 +52,7 @@ a:hover{
 }
 
 .primera-seccion-contenido {
-    margin-top: 8rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -64,6 +63,7 @@ a:hover{
     margin-bottom: -2.5rem;
     font-size: 1.5rem;
     font-weight: bold;
+    color: #383838;
 }
 
 .primera-seccion-contenido > h1 {
@@ -97,17 +97,37 @@ a:hover{
 
 .content-text-izq:hover {
 	transform: scale(1.1);
+	font-size: 1.2rem;
 }
 
 
 .content-text-der{
+	color: #383838;
 	padding: 25px;
 	width: 400px;
 	float: right;
+}
+
+.content-text-der h4{
+	position: relative;
+	opacity: 0;
+	transform: translateY(-65px);
+	transition: all 600ms;
+}
+
+.content-text-der:hover h4{
+	top: 10px;
+	transform: translateY(0px);
+	opacity: 1;
 }
 
 .content-text-der img {
 	border-radius: 10px;
 	margin: 5px;
 	width: 100%;
+	transition: 400ms;
+}
+
+.content-text-der img:hover {
+	transform: scale(1.1);
 }
