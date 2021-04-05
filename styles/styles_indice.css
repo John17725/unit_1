@@ -25,23 +25,80 @@ a:hover{
 	color: #fff;
 }
 
-.barra-navegacion i {
-	color: #000;
-	font-size: 1rem;
+.contenedor{
+	width: 100%;
+/*	overflow: hidden;*/
 }
 
+.contenido-slider{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.slider-contenedor{
+	width: 100%;
+	display: flex;
+}
+
+
 .primera-seccion {
+	padding-top: 6rem;
     height: 100vh;
     color: white;
 }
 
+.titulo-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+}
+
+
+.img-content{
+	float: right;
+	background-color: #eee;
+	border-radius: 40px;
+	margin-left: 12px;
+	transition: all 800ms;
+}
+
+.img-content:hover{
+	border-radius: 60px;
+	transform: rotate(360deg);
+}
+
+.svg-uno{
+	margin: 10px;
+	width: 6rem;
+	transition: all 600ms;
+}
+
+.svg-uno:hover{
+	transform: scale(.5);
+}
+
 .barra-navegacion {
+	position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto 5rem;
-    padding-top: 2rem;
+    margin: 3rem 5rem;
     padding-bottom: 2rem;
+    transition: 800ms;
+}
+
+.barra-navegacion:hover {
+	transform: scale(1.5);
+
+}
+
+.barra-navegacion i {
+	color: #000;
+	font-size: 1rem;
 }
 
 .logo {
@@ -53,6 +110,7 @@ a:hover{
 
 .primera-seccion-contenido {
     margin-top: 4rem;
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -60,7 +118,7 @@ a:hover{
 
 .primera-seccion-contenido > p {
     text-transform: capitalize;
-    margin-bottom: -2.5rem;
+    margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
     color: #383838;
@@ -131,3 +189,36 @@ a:hover{
 .content-text-der img:hover {
 	transform: scale(1.1);
 }
+
+
+/*INCIA SEGUNDA SECCION*/
+/*
+.segunda-seccion {
+	padding-top: 4rem;
+    height: 100vh;
+    color: #000;
+}
+
+
+.segunda-seccion-contenido {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.segunda-seccion-contenido > p {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #383838;
+}
+
+.segunda-seccion-contenido > h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+*/
