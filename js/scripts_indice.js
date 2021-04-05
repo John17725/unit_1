@@ -1,5 +1,4 @@
 
-
 addEventListener('DOMContentLoaded',()=>{
 
 	const arr_img = ['img/img_12.jpg','img/img_13.jpg','img/img_14.jpg','img/img_15.jpg','img/img_16.jpg','img/img_17.jpg'];
@@ -43,5 +42,6 @@ addEventListener('DOMContentLoaded',()=>{
 
 	setInterval(slideshow, 4000)
 	setInterval(slideshow2, 4000)
-
 })
+
+
