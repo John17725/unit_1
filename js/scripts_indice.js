@@ -6,11 +6,13 @@ addEventListener('DOMContentLoaded',()=>{
 	const arr_img3 = ['img/img_geo_1.jpg','img/img_geo_2.jpg','img/img_geo_3.jpg'];
 	const arr_img4 = ['img/img_concurrencia_1.png','img/img_concurrencia_2.jpg','img/img_concurrencia_3.jpg'];
 	const arr_img5 = ['img/img_17.jpg','img/img_12.jpg','img/img_15.jpg','img/img_16.jpg'];
+	const arr_img6 = ['img/img_middleware_01.png','img/img_middleware_02.png','img/img_middleware_03.jpg'];
 	let i = 1
 	let j = 1
 	let k = 1
 	let l = 1
 	let o = 1
+	let u = 1;
 	const img1 = document.querySelector('#img1')
 	const img2 = document.querySelector('#img2')
 	const img3 = document.querySelector('#img3')
@@ -21,6 +23,8 @@ addEventListener('DOMContentLoaded',()=>{
 	const img8 = document.querySelector('#img8')
 	const img9 = document.querySelector('#img9')
 	const img10 = document.querySelector('#img10')
+	const img11 = document.querySelector('#img11')
+	const img12 = document.querySelector('#img12')
 
 	
 
@@ -29,6 +33,7 @@ addEventListener('DOMContentLoaded',()=>{
 	img5.src = arr_img3[0]
 	img7.src = arr_img4[0]
 	img9.src = arr_img5[0]
+	img11.src = arr_img6[0]
 
 
 	const slideshow = () => {
@@ -91,11 +96,24 @@ addEventListener('DOMContentLoaded',()=>{
 			img10.classList.remove('active')
 		},0)
 	}
+	const slideshow6 = () => {
+		img12.src = arr_img6[u]
+		img12.classList.add('active')
+		u++
+		if (u == arr_img5.length) {
+			u = 0
+		}
+		setTimeout(() => {
+			img11.src = img12.scr
+			img12.classList.remove('active')
+		},0)
+	}
 	setInterval(slideshow, 4000)
 	setInterval(slideshow2, 4000)
 	setInterval(slideshow3, 4000)
 	setInterval(slideshow4, 4000)
 	setInterval(slideshow5, 4000)
+	setInterval(slideshow6, 4000)
 })
 
 
