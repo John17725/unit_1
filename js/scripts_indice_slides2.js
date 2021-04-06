@@ -31,11 +31,11 @@ btnDer.addEventListener('click', function(){
 	if (pos2 == 6) {
 		mostrarbtnizq();
 	}
-	if (pos>=6 && pos2 <14) {
+	if (pos>=6 && pos2 <11) {
 		ocultarbtnizq();
 		slidesDer1_2();
 		console.log(pos2)
-		if (pos2 == 14) {
+		if (pos2 == 11) {
 			mostrarbtnizq();
 			vecespresionadobtnizq=0;
 
