@@ -11,6 +11,7 @@ addEventListener('DOMContentLoaded',()=>{
 	const arr_img8 = ['img/img_seguridad_01.jpg','img/img_seguridad_02.jpg','img/img_seguridad_03.jpg','img/img_seguridad_04.jpg'];
 	const arr_img9 = ['img/img_concurrencia_3.jpg','img/img_concurrencia_4.png'];
 	const arr_img10 = ['img/img_escalabilidad_01.png','img/img_escalabilidad_02.png']
+	const arr_img11 = ['img/img_tratamiento_01.jpg','img/img_tratamiento_02.png']
 	let i = 1;
 	let j = 1;
 	let k = 1;
@@ -21,6 +22,7 @@ addEventListener('DOMContentLoaded',()=>{
 	let b = 1;
 	let c = 1;
 	let d = 1;
+	let e = 1;
 	const img1 = document.querySelector('#img1')
 	const img2 = document.querySelector('#img2')
 	const img3 = document.querySelector('#img3')
@@ -41,6 +43,8 @@ addEventListener('DOMContentLoaded',()=>{
 	const img18 = document.querySelector('#img18')
 	const img19 = document.querySelector('#img19')
 	const img20 = document.querySelector('#img20')
+	const img21 = document.querySelector('#img21')
+	const img22 = document.querySelector('#img22')
 
 	img1.src = arr_img[0]
 	img3.src = arr_img2[0]
@@ -52,6 +56,7 @@ addEventListener('DOMContentLoaded',()=>{
 	img15.src = arr_img8[0]
 	img17.src = arr_img9[0]
 	img19.src = arr_img10[0]
+	img21.src = arr_img11[0]
 
 	const slideshow = () => {
 		img2.src = arr_img[i]
@@ -172,6 +177,18 @@ addEventListener('DOMContentLoaded',()=>{
 			img19.src = img20.scr
 			img20.classList.remove('active')
 		},0)
+	}
+	const slideshow11 = () => {
+		img22.src = arr_img11[e]
+		img22.classList.add('active')
+		e++
+		if (e == arr_img11.length) {
+			e = 0
+		}
+		setTimeout(() => {
+			img21.src = img22.scr
+			img22.classList.remove('active')
+		},0)
 	}	
 
 	setInterval(slideshow, 4000)
@@ -184,6 +201,7 @@ addEventListener('DOMContentLoaded',()=>{
 	setInterval(slideshow8, 4000)
 	setInterval(slideshow9, 4000)
 	setInterval(slideshow10, 4000)
+	setInterval(slideshow11, 4000)
 })
 
 
