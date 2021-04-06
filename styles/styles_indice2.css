@@ -260,11 +260,15 @@ a:hover{
 }
 
 .mini-footer-sec-uno:hover {
-	color: #eee;
+	color: #000;
 	transform: translateY(-5px);
 
 }
 
 .icons{
 	font-size: 1.2rem;
+}
+
+.icons i {
+	transform: rotate(180deg);
 }
